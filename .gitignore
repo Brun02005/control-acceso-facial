@@ -1,0 +1,25 @@
+# Datos personales y biométricos: NUNCA se versionan
+*.csv
+*.npz
+*.enc
+*.old_pixel_bak
+personas.json
+empleados.json
+labels.json
+dataset_nombres.json
+
+# Dataset de terceros (se descarga con benchmark_lfw.py)
+lfw_data/
+
+# Lanzador con rutas locales
+correr_acceso.bat
+
+# Entorno, caches y notas locales
+__pycache__/
+*.pyc
+.venv/
+venv/
+.vscode/
+.claude/
+.mentor/
+*.mp4
